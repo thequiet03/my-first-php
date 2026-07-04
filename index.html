@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shanto Islam — Senior UI/UX Designer &amp; Full Stack Developer</title>
+  <meta name="description"
+    content="Shanto Islam is a senior UI/UX designer, full stack developer and digital marketing specialist helping startups and brands design, build and grow premium digital products.">
+  <link rel="canonical" href="https://shantoislam.dev/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicons -->
+  <link rel="icon" type="svg+xml" href="favicon.svg">
+  <link rel="icon" type="png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="png" sizes="16x16" href="favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180"href="apple-touch-icon.png">
+  <meta name="theme-color" content="#090A10">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Shanto Islam — Senior UI/UX Designer &amp; Full Stack Developer">
+  <meta property="og:description"
+    content="Premium product design, full stack development, and growth marketing for startups, agencies and founders.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shantoislam.dev/">
+  <meta property="og:image" content="og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shanto Islam — Senior UI/UX Designer &amp; Full Stack Developer">
+  <meta name="twitter:description"
+    content="Premium product design, full stack development, and growth marketing for startups, agencies and founders.">
+  <meta name="twitter:image" content="og-cover.png">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shanto Islam",
+  "jobTitle": "Senior UI/UX Designer & Full Stack Developer",
+  "url": "https://shantoislam.dev",
+  "sameAs": [
+    "https://github.com/YOUR-GITHUB-USERNAME",
+    "https://linkedin.com/in/YOUR-LINKEDIN-USERNAME",
+    "https://dribbble.com/YOUR-DRIBBBLE-USERNAME",
+    "https://behance.net/YOUR-BEHANCE-USERNAME"
+  ]
+}
+</script>
+
+  <!-- Fonts: preconnect + stylesheet (replaces render-blocking @import in CSS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a href="#top" class="skip-link">Skip to content</a>
+  <div class="atmo" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div id="scrollProgress" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div id="preloader" aria-hidden="true">
+    <div class="pre-mark"><span>S</span><span>h</span><span>a</span><span>n</span><span>t</span><span>o</span></div>
+    <div class="pre-bar"><i></i></div>
+    <div class="pre-tag">Loading the experience</div>
+  </div>
+
+  <!-- ===================== MOBILE DRAWER ===================== -->
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <button class="close-drawer" id="closeDrawer" aria-label="Close menu">✕</button>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="siteHeader">
+    <div class="container nav-inner">
+      <a href="#top" class="logo"><span class="dot"></span> Shanto Islam</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-ghost btn-small magnetic">Get in Touch</a>
+        <a href="#contact" class="btn btn-primary btn-small magnetic">Hire Me</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"
+          aria-controls="mobileDrawer"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" tabindex="-1">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <canvas id="constellation" aria-hidden="true"></canvas>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="hero-eyebrow eyebrow reveal">Available for select projects · Dhaka, Bangladesh</div>
+          <h1>
+            <span class="line"><span>Product design</span></span>
+            <span class="line"><span>and full stack code,</span></span>
+            <span class="line"><span class="accent">built to convert.</span></span>
+          </h1>
+          <p class="hero-sub reveal">I'm Shanto Islam — a senior UI/UX designer and full stack developer helping
+            founders, agencies and SaaS teams turn rough ideas into premium products that look expensive and perform
+            even better.</p>
+          <div class="hero-actions reveal">
+            <a href="#contact" class="btn btn-primary magnetic">Hire Me</a>
+            <a href="#work" class="btn btn-ghost magnetic">View My Work</a>
+            <a href="assets/Shanto-Islam-Resume.pdf" class="btn btn-ghost magnetic">Download Resume</a>
+          </div>
+          <div class="hero-socials-inline reveal" aria-label="Social links">
+            <a href="https://github.com/YOUR-GITHUB-USERNAME" aria-label="GitHub" target="_blank" rel="noopener"><svg
+                viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 .5C5.65.5.5 5.66.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.04 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.6.24 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.17 0 1.57-.01 2.83-.01 3.21 0 .31.2.66.79.55C20.21 21.38 23.5 17.07 23.5 12c0-6.34-5.15-11.5-11.5-11.5Z" />
+              </svg></a>
+            <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" aria-label="LinkedIn" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M6.94 5a2 2 0 1 1-4-.02 2 2 0 0 1 4 .02ZM3.2 8.75h3.5V21H3.2V8.75Zm6.2 0h3.36v1.68h.05c.47-.88 1.6-1.8 3.3-1.8 3.52 0 4.17 2.32 4.17 5.33V21h-3.5v-5.84c0-1.39-.02-3.18-1.94-3.18-1.94 0-2.24 1.51-2.24 3.07V21H9.4V8.75Z" />
+              </svg></a>
+            <a href="https://dribbble.com/YOUR-DRIBBBLE-USERNAME" aria-label="Dribbble" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <circle cx="12" cy="12" r="9.5" />
+                <path d="M3.5 9.5c5 1.6 11 1.7 17 .6M3 14.6c6-1.4 12.4-1 16.7 2.3M9.3 3c3.4 4.2 5.3 9.7 5.3 15.4" />
+              </svg></a>
+            <a href="https://behance.net/YOUR-BEHANCE-USERNAME" aria-label="Behance" target="_blank" rel="noopener"><svg
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <rect x="2.5" y="7" width="8" height="9.5" rx="1.5" />
+                <path
+                  d="M2.5 11.2h8M14 16.3c1.4 1 4.4 1 5.7-.4 1-1 .9-2.3-.4-2.6m-5.3 3c-1.6-.5-2.5-1.9-2.5-3.6 0-2.4 1.7-4 4-4 2.3 0 3.8 1.5 3.9 4.2H14" />
+                <path d="M15 8.5h4" />
+              </svg></a>
+          </div>
+          <div class="hero-meta reveal-stagger">
+            <div><b data-count="40">0</b><span>Projects</span></div>
+            <div><b data-count="28">0</b><span>Clients</span></div>
+            <div><b data-count="5">0</b><span>Years Exp.</span></div>
+            <div><b data-count="98" data-suffix="%">0%</b><span>Success Rate</span></div>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap reveal">
+          <div class="hero-photo-glow" aria-hidden="true"></div>
+          <div class="hero-photo-ring" aria-hidden="true"></div>
+          <div class="hero-photo-frame" id="heroPhotoFrame">
+            <img src="assets/profile.jpg" alt="Portrait of Shanto Islam" id="heroPhotoImg" width="380" height="475"
+              onerror="this.style.display='none'; document.getElementById('heroPhotoPlaceholder').style.display='flex';">
+            <div class="photo-placeholder" id="heroPhotoPlaceholder" style="display:none;">
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle cx="50" cy="38" r="20" fill="none" stroke="#6366F1" stroke-width="2" />
+                <path d="M18 88c0-22 14-34 32-34s32 12 32 34" fill="none" stroke="#22D3EE" stroke-width="2" />
+              </svg>
+              <span>Add your photo</span>
+              <code>assets/profile.jpg</code>
+            </div>
+          </div>
+          <div class="hero-photo-badge"><i></i> Open to new projects</div>
+        </div>
+      </div>
+      <div class="scroll-cue"><i></i>Scroll</div>
+    </section>
+
+    <!-- ===================== PERSONAL BRANDING / PHILOSOPHY ===================== -->
+    <section class="philosophy" id="philosophy">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Personal Philosophy</div>
+          <h2>Four ideas guide every project I take on</h2>
+          <p>Design, code, growth and AI aren't separate disciplines for me — they're connected nodes in the same
+            system. That's how I approach every brief.</p>
+        </div>
+        <div class="philo-grid reveal-stagger">
+          <div class="philo-card">
+            <div class="node">◆</div>
+            <h3>Mission</h3>
+            <p>Help founders and teams ship digital products that feel premium from the first click — without the
+              premium-agency price tag or timeline.</p>
+          </div>
+          <div class="philo-card">
+            <div class="node">◇</div>
+            <h3>Vision</h3>
+            <p>To be the senior partner clients call before they've even finished writing the brief — because the work
+              speaks before the pitch does.</p>
+          </div>
+          <div class="philo-card">
+            <div class="node">○</div>
+            <h3>Values</h3>
+            <p>Clarity over decoration, evidence over opinion, and ownership over excuses. If it doesn't move the
+              metric, it doesn't ship.</p>
+          </div>
+          <div class="philo-card">
+            <div class="node">●</div>
+            <h3>Work Ethic</h3>
+            <p>Calm communication, realistic deadlines, and the discipline to say no to scope that doesn't serve the
+              goal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-portrait reveal">
+          <div class="ring" aria-hidden="true"></div>
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <circle cx="100" cy="78" r="40" fill="none" stroke="#6366F1" stroke-width="1.5" />
+            <path d="M40 180 C40 130 70 110 100 110 C130 110 160 130 160 180" fill="none" stroke="#22D3EE"
+              stroke-width="1.5" />
+          </svg>
+        </div>
+        <div class="about-text reveal">
+          <div class="eyebrow">About Me</div>
+          <h2>Five years bridging design, engineering and growth</h2>
+          <p>I started as a self-taught designer obsessing over pixel grids, then learned to build the interfaces I was
+            designing — and eventually the marketing systems that bring people to them. That full-stack view is now my
+            edge: I don't hand off a Figma file and disappear, I design, build, ship and measure.</p>
+          <p>I've worked with early-stage founders validating their first product, agencies needing a senior hand on
+            client work, and growth teams who needed a site that could actually rank and convert. Along the way I picked
+            up a fourth skill set most designers don't have: training and evaluating AI systems, and writing the prompts
+            that get them to behave.</p>
+          <p>Today I take on a small number of select projects at a time so each one gets the senior-level attention it
+            deserves.</p>
+          <div class="about-stats">
+            <div class="stat"><b data-count="40">0</b><span>Projects</span></div>
+            <div class="stat"><b data-count="28">0</b><span>Clients</span></div>
+            <div class="stat"><b data-count="5">0</b><span>Years Exp.</span></div>
+            <div class="stat"><b data-count="98" data-suffix="%">0%</b><span>Success Rate</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Services</div>
+          <h2>One senior partner, every layer of the product</h2>
+          <p>From the first wireframe to the campaign that brings traffic to it — engage me for one layer or all of
+            them.</p>
+        </div>
+        <div class="services-grid reveal-stagger">
+          <div class="service-card tilt"><span class="service-num">01</span>
+            <h3>UI/UX Design</h3>
+            <p>Research-backed interfaces, design systems and prototypes that hold up under real usage.</p>
+          </div>
+          <div class="service-card tilt"><span class="service-num">02</span>
+            <h3>Website Design</h3>
+            <p>Marketing sites and landing pages engineered to look premium and convert visitors.</p>
+          </div>
+          <div class="service-card tilt"><span class="service-num">03</span>
+            <h3>Full Stack Development</h3>
+            <p>React front-ends backed by Node.js/Express APIs and MongoDB — built clean, documented and scalable.</p>
+          </div>
+          <div class="service-card tilt"><span class="service-num">04</span>
+            <h3>Landing Page Design</h3>
+            <p>Conversion-first single pages for launches, campaigns and lead generation.</p>
+          </div>
+          <div class="service-card tilt"><span class="service-num">05</span>
+            <h3>SEO Optimization</h3>
+            <p>Technical SEO, on-page structure and content strategy that compounds organic traffic.</p>
+          </div>
+          <div class="service-card tilt"><span class="service-num">06</span>
+            <h3>Social Media Marketing</h3>
+            <p>Platform-specific content and growth systems for brands building an audience.</p>
+          </div>
+          <div class="service-card tilt"><span class="service-num">07</span>
+            <h3>Branding Strategy</h3>
+            <p>Positioning, voice and visual identity that make a brand instantly recognizable.</p>
+          </div>
+          <div class="service-card tilt"><span class="service-num">08</span>
+            <h3>AI Data Annotation</h3>
+            <p>High-precision labeling, evaluation and prompt design for teams training AI models.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Skills</div>
+          <h2>Tools I reach for daily</h2>
+        </div>
+        <div class="skills-wrap reveal-stagger">
+          <div class="skill-group">
+            <h3>Design</h3>
+            <div class="skill-row">
+              <div class="lbl"><span>Figma</span><span>96%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="96"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Adobe XD</span><span>88%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="88"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Photoshop</span><span>85%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Illustrator</span><span>80%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="80"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Development</h3>
+            <div class="skill-row">
+              <div class="lbl"><span>HTML / CSS</span><span>97%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="97"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>JavaScript</span><span>92%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="92"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>React</span><span>90%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="90"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Node.js / Express</span><span>85%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>MongoDB</span><span>82%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="82"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Marketing</h3>
+            <div class="skill-row">
+              <div class="lbl"><span>SEO</span><span>90%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="90"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Social Media Marketing</span><span>87%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="87"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Content Strategy</span><span>84%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="84"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>AI</h3>
+            <div class="skill-row">
+              <div class="lbl"><span>AI Training</span><span>89%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="89"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Data Annotation</span><span>91%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="91"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="lbl"><span>Prompt Engineering</span><span>93%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-fill="93"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED PROJECTS / WORK ===================== -->
+    <section id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Featured Work</div>
+          <h2>Selected projects across design, code and growth</h2>
+          <p>A mix of full product builds, UX case studies, and marketing campaigns — filter by discipline.</p>
+        </div>
+
+        <div class="proj-filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="design">UI/UX</button>
+          <button class="filter-btn" data-filter="dev">Development</button>
+          <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+
+        <div class="proj-grid reveal-stagger">
+
+          <article class="proj-card tilt" data-cat="design"
+            style="--proj-bg: radial-gradient(circle at 75% 15%, rgba(99,102,241,.5), transparent 60%);">
+            <div class="proj-tag">UI/UX · SaaS Dashboard</div>
+            <h3>Northbeam — Analytics Dashboard</h3>
+            <p>End-to-end redesign of a data-heavy analytics product: research, IA, design system, and a working Figma
+              prototype.</p>
+            <div class="proj-tools"><span>Figma</span><span>Design System</span><span>User Research</span></div>
+            <div class="proj-links">
+              <span class="proj-link-pending" aria-label="Live demo link coming soon">Live Demo (soon)</span>
+              <a href="#case-study">Case Study →</a>
+            </div>
+            <div class="proj-impact">
+              <div><b>+34%</b><span>Task Success</span></div>
+              <div><b>−41%</b><span>Time on Task</span></div>
+            </div>
+          </article>
+
+          <article class="proj-card tilt" data-cat="dev"
+            style="--proj-bg: radial-gradient(circle at 75% 15%, rgba(34,211,238,.18), transparent 60%);">
+            <div class="proj-tag">Full Stack · SaaS Platform</div>
+            <h3>Ledgerly — Invoicing SaaS</h3>
+            <p>React + Node.js + MongoDB platform with Stripe billing, role-based auth, and a real-time dashboard.</p>
+            <div class="proj-tools"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Stripe API</span>
+            </div>
+            <div class="proj-links">
+              <span class="proj-link-pending" aria-label="Live demo link coming soon">Live Demo (soon)</span>
+              <span class="proj-link-pending" aria-label="GitHub link coming soon">GitHub (soon)</span>
+            </div>
+            <div class="proj-impact">
+              <div><b>1.2k+</b><span>Active Users</span></div>
+              <div><b>99.9%</b><span>Uptime</span></div>
+            </div>
+          </article>
+
+          <article class="proj-card tilt" data-cat="marketing"
+            style="--proj-bg: radial-gradient(circle at 75% 15%, rgba(99,102,241,.45), transparent 60%);">
+            <div class="proj-tag">Marketing · SEO + Content</div>
+            <h3>Verdant — Organic Growth Engine</h3>
+            <p>Technical SEO overhaul and content strategy for a DTC brand, rebuilding their organic acquisition from
+              scratch.</p>
+            <div class="proj-tools"><span>Technical SEO</span><span>Content Strategy</span><span>Analytics</span></div>
+            <div class="proj-links">
+              <a href="#marketing">Case Study →</a>
+            </div>
+            <div class="proj-impact">
+              <div><b>+212%</b><span>Organic Traffic</span></div>
+              <div><b>+58%</b><span>Conversion Rate</span></div>
+            </div>
+          </article>
+
+          <article class="proj-card tilt" data-cat="design dev"
+            style="--proj-bg: radial-gradient(circle at 75% 15%, rgba(34,211,238,.16), transparent 60%);">
+            <div class="proj-tag">UI/UX + Dev · Landing Page</div>
+            <h3>Atlas Robotics — Product Launch Page</h3>
+            <p>High-conversion landing page from concept to deployed code, including motion design and CMS-driven blog.
+            </p>
+            <div class="proj-tools"><span>Figma</span><span>React</span><span>Framer Motion</span></div>
+            <div class="proj-links">
+              <span class="proj-link-pending" aria-label="Live demo link coming soon">Live Demo (soon)</span>
+              <span class="proj-link-pending" aria-label="GitHub link coming soon">GitHub (soon)</span>
+            </div>
+            <div class="proj-impact">
+              <div><b>+76%</b><span>Sign-up Rate</span></div>
+              <div><b>1.4s</b><span>Load Time</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CASE STUDY DEEP DIVE ===================== -->
+    <section id="case-study">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Case Study Walkthrough</div>
+          <h2>Northbeam: from messy data to a dashboard people trust</h2>
+          <p>A look at the full process behind the featured analytics dashboard redesign — from research to measured
+            outcomes.</p>
+        </div>
+        <div class="case-flow reveal-stagger">
+          <div class="case-step">
+            <div class="node">1</div>
+            <h4>Research</h4>
+            <p>8 user interviews and a heuristic audit surfaced 14 usability blockers in the existing dashboard.</p>
+          </div>
+          <div class="case-step">
+            <div class="node">2</div>
+            <h4>Personas &amp; Flows</h4>
+            <p>Two primary personas and a simplified information architecture cut the reporting flow from 9 steps to 4.
+            </p>
+          </div>
+          <div class="case-step">
+            <div class="node">3</div>
+            <h4>Design System</h4>
+            <p>A token-based system covering color, type, components and states — built for both light and dark
+              contexts.</p>
+          </div>
+          <div class="case-step">
+            <div class="node">4</div>
+            <h4>Prototype &amp; Test</h4>
+            <p>A clickable prototype tested with 6 users across two rounds, refining the chart and filter interactions.
+            </p>
+          </div>
+          <div class="case-step">
+            <div class="node">5</div>
+            <h4>Outcome</h4>
+            <p>Shipped UI lifted task success by 34% and cut time-on-task by 41% in post-launch analytics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARKETING PORTFOLIO ===================== -->
+    <section id="marketing">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Digital Marketing Portfolio</div>
+          <h2>Growth work, measured in numbers that matter</h2>
+        </div>
+        <div class="marketing-grid reveal-stagger">
+          <div class="market-card"><b>+212%</b><span>Organic Traffic Growth</span><span class="delta">▲ Verdant, 6
+              months</span></div>
+          <div class="market-card"><b>+58%</b><span>Conversion Improvement</span><span class="delta">▲ Verdant Landing
+              Pages</span></div>
+          <div class="market-card"><b>3.4x</b><span>Social Audience Growth</span><span class="delta">▲ Atlas
+              Robotics</span></div>
+          <div class="market-card"><b>#2</b><span>Ranking, Core Keyword</span><span class="delta">▲ from page 4</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE TIMELINE ===================== -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Work Experience</div>
+          <h2>A timeline shaped by design, leadership and service</h2>
+        </div>
+        <div class="timeline reveal-stagger">
+          <div class="t-item">
+            <span class="t-date">2023 — Present</span>
+            <h3>Senior UI/UX Designer &amp; Full Stack Developer · Freelance</h3>
+            <p>Leading design and development for international clients across SaaS, e-commerce and startup products —
+              from discovery through deployment.</p>
+          </div>
+          <div class="t-item">
+            <span class="t-date">2022 — 2023</span>
+            <h3>Product Designer · Quiet Studio</h3>
+            <p>Designed interfaces and design systems for client products, partnering closely with engineering to ship
+              pixel-accurate builds.</p>
+          </div>
+          <div class="t-item">
+            <span class="t-date">2021 — 2022</span>
+            <h3>Digital Marketing Lead · Excellence Bangladesh</h3>
+            <p>Owned SEO, content and social strategy for a portfolio of local and regional brands, growing organic
+              reach and lead volume.</p>
+          </div>
+          <div class="t-item">
+            <span class="t-date">2019 — 2021</span>
+            <h3>AI Data Annotation Specialist</h3>
+            <p>Trained and evaluated machine learning models through high-precision labeling and structured quality
+              review.</p>
+          </div>
+          <div class="t-item">
+            <span class="t-date">2017 — 2019</span>
+            <h3>Scout Leadership &amp; Customer Service</h3>
+            <p>Led youth teams as a Scout leader while working in customer-facing roles — the foundation for the
+              communication and ownership I bring to client work today.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ACHIEVEMENTS ===================== -->
+    <section id="achievements">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Achievements &amp; Certifications</div>
+          <h2>Recognition along the way</h2>
+        </div>
+        <div class="ach-grid reveal-stagger">
+          <div class="ach-card">
+            <div class="node">★</div>
+            <h3>Google UX Design Certificate</h3>
+            <p>Completed the full professional certificate covering research, wireframing and prototyping.</p>
+          </div>
+          <div class="ach-card">
+            <div class="node">★</div>
+            <h3>Meta Front-End Developer Certificate</h3>
+            <p>Verified credential covering React, responsive design and version control.</p>
+          </div>
+          <div class="ach-card">
+            <div class="node">★</div>
+            <h3>HubSpot SEO Certification</h3>
+            <p>Certified in technical and on-page SEO fundamentals and content strategy.</p>
+          </div>
+          <div class="ach-card">
+            <div class="node">▲</div>
+            <h3>Scout Leadership Award</h3>
+            <p>Recognized for leading youth development programs and community initiatives.</p>
+          </div>
+          <div class="ach-card">
+            <div class="node">▲</div>
+            <h3>Top Rated Freelancer</h3>
+            <p>Maintained a top-rated status across freelance platforms with a 98% client success rate.</p>
+          </div>
+          <div class="ach-card">
+            <div class="node">▲</div>
+            <h3>Community Contributor</h3>
+            <p>Mentors junior designers and developers through local tech community meetups.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Testimonials</div>
+          <h2>What clients say after working together</h2>
+        </div>
+        <div class="testi-track-wrap reveal">
+          <div class="testi-track" id="testiTrack">
+            <div class="testi-card">
+              <div class="testi-avatar">JR</div>
+              <div>
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">Shanto redesigned our dashboard and the difference in how customers talk about
+                  the product is night and day. He thinks like a product owner, not just a designer.</p>
+                <div class="testi-name">Jordan Reyes</div>
+                <div class="testi-role">Founder, Northbeam</div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-avatar">AM</div>
+              <div>
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">We handed Shanto a vague idea and three weeks later had a working SaaS product.
+                  Clean code, clear communication, zero surprises.</p>
+                <div class="testi-name">Amelia Munoz</div>
+                <div class="testi-role">CTO, Ledgerly</div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-avatar">KT</div>
+              <div>
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">Our organic traffic more than tripled after Shanto's SEO overhaul. He explains
+                  the strategy in plain language, which we really valued.</p>
+                <div class="testi-name">Kenji Tanaka</div>
+                <div class="testi-role">Marketing Director, Verdant</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-nav" id="testiNav"></div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY WORK WITH ME ===================== -->
+    <section id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Why Work With Me</div>
+          <h2>What it's actually like to collaborate</h2>
+        </div>
+        <div class="why-grid reveal-stagger">
+          <div class="why-card">
+            <div class="node">→</div>
+            <div>
+              <h3>Process</h3>
+              <p>Every project follows the same six-stage process below — nothing skipped, nothing rushed.</p>
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="node">→</div>
+            <div>
+              <h3>Communication</h3>
+              <p>Weekly async updates plus a standing call, so you always know exactly where things stand.</p>
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="node">→</div>
+            <div>
+              <h3>Delivery Standards</h3>
+              <p>Deadlines are commitments, not estimates. Scope changes get flagged before they affect timeline.</p>
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="node">→</div>
+            <div>
+              <h3>Problem Solving</h3>
+              <p>I bring options with trade-offs, not just opinions — you make the call with full context.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROCESS ===================== -->
+    <section id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Project Process</div>
+          <h2>Six stages, every project</h2>
+        </div>
+        <div class="process-grid reveal-stagger">
+          <div class="process-step"><span class="pnum">01</span>
+            <h4>Discovery</h4>
+            <p>Goals, constraints and success metrics.</p>
+          </div>
+          <div class="process-step"><span class="pnum">02</span>
+            <h4>Research</h4>
+            <p>Users, competitors and data.</p>
+          </div>
+          <div class="process-step"><span class="pnum">03</span>
+            <h4>Design</h4>
+            <p>Wireframes through to final UI.</p>
+          </div>
+          <div class="process-step"><span class="pnum">04</span>
+            <h4>Development</h4>
+            <p>Clean, scalable, documented code.</p>
+          </div>
+          <div class="process-step"><span class="pnum">05</span>
+            <h4>Testing</h4>
+            <p>QA, accessibility and performance.</p>
+          </div>
+          <div class="process-step"><span class="pnum">06</span>
+            <h4>Launch</h4>
+            <p>Deployment and post-launch support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESUME CTA ===================== -->
+    <section id="resume">
+      <div class="container">
+        <div class="resume-cta reveal">
+          <h2>Want the full picture? Grab my resume.</h2>
+          <div class="actions">
+            <a href="assets/Shanto-Islam-Resume.pdf" class="btn btn-primary magnetic">Download CV</a>
+            <a href="#contact" class="btn btn-ghost magnetic">Book a Discovery Call</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BLOG ===================== -->
+    <section id="blog">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Blog</div>
+          <h2>Notes on design, code and growth</h2>
+        </div>
+        <div class="blog-grid reveal-stagger">
+          <article class="blog-card">
+            <span class="blog-tag">UI/UX</span>
+            <h3>Designing dashboards people actually trust</h3>
+            <p>Why information hierarchy matters more than visual polish when the data is the product.</p>
+            <div class="blog-meta"><span>6 min read</span><span>Design</span></div>
+          </article>
+          <article class="blog-card">
+            <span class="blog-tag">Development</span>
+            <h3>A pragmatic React + Node.js stack for solo builders</h3>
+            <p>The exact toolkit I reach for when speed and maintainability both matter.</p>
+            <div class="blog-meta"><span>8 min read</span><span>Engineering</span></div>
+          </article>
+          <article class="blog-card">
+            <span class="blog-tag">SEO</span>
+            <h3>Technical SEO checklist before any content strategy</h3>
+            <p>The unglamorous fixes that move rankings more than another blog post will.</p>
+            <div class="blog-meta"><span>5 min read</span><span>Marketing</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <div class="eyebrow">Contact</div>
+          <h2>Let's build something premium together</h2>
+          <p>Tell me about the project and I'll reply within one business day with next steps — or book a discovery call
+            directly.</p>
+          <div class="social-grid">
+            <a href="mailto:hello@shantoislam.dev" class="social-card email-card">
+              <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                  <rect x="2.5" y="5" width="19" height="14" rx="2.5" />
+                  <path d="m3.5 6.5 8.5 7 8.5-7" />
+                </svg></span>
+              <span class="s-text"><b>Email</b><span>hello@shantoislam.dev</span></span>
+            </a>
+            <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank" rel="noopener" class="social-card">
+              <span class="s-ico"><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M6.94 5a2 2 0 1 1-4-.02 2 2 0 0 1 4 .02ZM3.2 8.75h3.5V21H3.2V8.75Zm6.2 0h3.36v1.68h.05c.47-.88 1.6-1.8 3.3-1.8 3.52 0 4.17 2.32 4.17 5.33V21h-3.5v-5.84c0-1.39-.02-3.18-1.94-3.18-1.94 0-2.24 1.51-2.24 3.07V21H9.4V8.75Z" />
+                </svg></span>
+              <span class="s-text"><b>LinkedIn</b><span>Connect professionally</span></span>
+            </a>
+            <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener" class="social-card">
+              <span class="s-ico"><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 .5C5.65.5.5 5.66.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.04 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.6.24 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.17 0 1.57-.01 2.83-.01 3.21 0 .31.2.66.79.55C20.21 21.38 23.5 17.07 23.5 12c0-6.34-5.15-11.5-11.5-11.5Z" />
+                </svg></span>
+              <span class="s-text"><b>GitHub</b><span>View my code</span></span>
+            </a>
+            <a href="https://behance.net/YOUR-BEHANCE-USERNAME" target="_blank" rel="noopener" class="social-card">
+              <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <rect x="2.5" y="7" width="8" height="9.5" rx="1.5" />
+                  <path
+                    d="M2.5 11.2h8M14 16.3c1.4 1 4.4 1 5.7-.4 1-1 .9-2.3-.4-2.6m-5.3 3c-1.6-.5-2.5-1.9-2.5-3.6 0-2.4 1.7-4 4-4 2.3 0 3.8 1.5 3.9 4.2H14" />
+                  <path d="M15 8.5h4" />
+                </svg></span>
+              <span class="s-text"><b>Behance</b><span>Design galleries</span></span>
+            </a>
+            <a href="https://dribbble.com/YOUR-DRIBBBLE-USERNAME" target="_blank" rel="noopener" class="social-card">
+              <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <circle cx="12" cy="12" r="9.5" />
+                  <path d="M3.5 9.5c5 1.6 11 1.7 17 .6M3 14.6c6-1.4 12.4-1 16.7 2.3M9.3 3c3.4 4.2 5.3 9.7 5.3 15.4" />
+                </svg></span>
+              <span class="s-text"><b>Dribbble</b><span>Shots &amp; concepts</span></span>
+            </a>
+            <a href="https://instagram.com/YOUR-INSTAGRAM-USERNAME" target="_blank" rel="noopener" class="social-card">
+              <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.2" cy="6.8" r="1" />
+                </svg></span>
+              <span class="s-text"><b>Instagram</b><span>Behind the scenes</span></span>
+            </a>
+            <a href="https://wa.me/YOUR-PHONE-NUMBER" target="_blank" rel="noopener" class="social-card email-card">
+              <span class="s-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M4 20.5 5.2 16A8.4 8.4 0 1 1 8.6 19l-4.6 1.5Z" />
+                  <path
+                    d="M8.5 8.7c.2-.5.5-.5.8-.5h.6c.2 0 .4 0 .6.5s.7 1.7.8 1.8c.1.2.1.3 0 .5-.1.2-.2.3-.4.5-.2.2-.4.4-.2.7.2.4 1 1.5 2.1 2.4 1.4 1.2 2 1.3 2.3 1.2.3-.1.6-.4.8-.7.2-.3.5-.2.8-.1.3.1 2 1 2.3 1.1.3.1.5.2.6.3.1.2.1.9-.2 1.6-.3.7-1.6 1.4-2.3 1.4-.6 0-2.7-.3-5.1-2.5-2.9-2.6-3.4-4.7-3.5-5.2-.1-.5-.7-1.7-.4-2.6Z" />
+                </svg></span>
+              <span class="s-text"><b>WhatsApp</b><span>Quick chat</span></span>
+            </a>
+          </div>
+        </div>
+        <!--
+        TODO (required before launch): this form posts to Formspree. Create a
+        free form at https://formspree.io, then replace YOUR_FORM_ID below
+        with the ID they give you. Until you do that, submissions will fail
+        and the visitor will see the error message + a mailto fallback link
+        (see script.js handleContactSubmit) — nothing is silently lost, but
+        it won't reach your inbox until this is configured.
+      -->
+        <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div class="form-field"><label for="cf-name">Name</label><input id="cf-name" name="name" type="text"
+                placeholder="Your full name" required></div>
+            <div class="form-field"><label for="cf-email">Email</label><input id="cf-email" name="email" type="email"
+                placeholder="you@company.com" required></div>
+          </div>
+          <div class="form-row">
+            <div class="form-field"><label for="cf-company">Company</label><input id="cf-company" name="company"
+                type="text" placeholder="Company or brand name"></div>
+            <div class="form-field"><label for="cf-budget">Budget</label>
+              <select id="cf-budget" name="budget">
+                <option>Under $1,000</option>
+                <option>$1,000 – $5,000</option>
+                <option>$5,000 – $15,000</option>
+                <option>$15,000+</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field"><label for="cf-message">Message</label><textarea id="cf-message" name="message"
+              rows="5" placeholder="What are you building?" required></textarea></div>
+          <button type="submit" class="btn btn-primary magnetic" id="cfSubmit">Send Message</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#top" class="logo"><span class="dot"></span> Shanto Islam</a>
+          <p>Senior UI/UX designer, full stack developer and growth marketer — premium product work for founders,
+            agencies and teams worldwide.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <a href="assets/Shanto-Islam-Resume.pdf">Resume</a>
+          <a href="#blog">Blog</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#case-study">Case Study</a>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://dribbble.com/YOUR-DRIBBBLE-USERNAME" target="_blank" rel="noopener">Dribbble</a>
+          <a href="https://behance.net/YOUR-BEHANCE-USERNAME" target="_blank" rel="noopener">Behance</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Shanto Islam. All rights reserved.</span>
+        <a href="#top" class="back-top" aria-label="Back to top">↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
